@@ -1,0 +1,135 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: Arial;
+    box-sizing:border-box;
+    
+}
+
+/* LAYOUT */
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width:100%;
+    background-image:url("./images/torshov.jpg");
+    background-size:cover;
+    background-position:center;
+    height:343px;
+}
+
+.avatar-container{ 
+    display:flex;
+    margin: 0 auto;
+    margin-top: 54px;
+    width:100%;
+    justify-content:space-around;
+}
+
+.avatar{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 230px;
+    
+}
+
+.activities{
+    background: #F1FAEE;
+    padding: 40px 0px;
+}
+
+
+footer{
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    margin:50px auto;
+    padding: 20px 18px;
+}
+
+/* TYPOGRAPHY */
+
+.hero-h2,
+.hero-p{
+    color:#F1FAEE;
+    border-radius:10px;
+}
+
+.hero-span{
+    display:block;
+}
+
+.hero-p{
+    font-size:19px;
+    padding:8px 30px;
+    background:#457B9D;
+    margin-top: 0px;
+}
+
+.hero-h2{
+    font-size: 32px;
+    margin-bottom:16px;
+    padding:8px 18px;
+    background-color:#1D3557;
+}
+
+.activities-h2{
+    margin-top:0px;
+}
+
+.avatar-p,
+.avatar-ps{
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.avatar-ps{
+    font-weight: 400;
+}
+
+.text{
+    display:block;
+}
+
+.text p{
+    margin-top:0;
+}
+
+/* IMAGES */
+
+.avatar-imgs{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+}
+.per{
+        width:180px;
+        border-radius: 10px;
+}
+
+/* STYLES */
+
+.darkblue{
+    color: #1D3557;
+}
+
+.bold{
+    font-weight: 700;
+}
